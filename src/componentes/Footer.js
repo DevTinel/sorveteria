@@ -9,9 +9,7 @@ export const Footer = () => {
         <img className="logo-footer" src={logo} alt="logo" />
         <div className="itens-footer ">
           <h4>ENDEREÇO</h4>
-          <p>
-            Av. Bernadino de <br /> Campos,98
-          </p>
+          <p className="br">Av. Bernadino de Campos,98</p>
           <p>São Paulo ,SP 12345-678</p>
         </div>
 

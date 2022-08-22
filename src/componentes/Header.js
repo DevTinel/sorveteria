@@ -10,8 +10,8 @@ export const Header = () => {
         <img className="logo" src={logo} alt="logo" />
         <div className="links-header">
           <Link to="/">Home</Link>
-          <Link to="/sabores">Sabores</Link>
-          <Link to="/sobre">Sobre</Link>
+          <Link to="pagina-sabores">Sabores</Link>
+          <Link to="pagina-sobre">Sobre</Link>
         </div>
       </nav>
     </header>

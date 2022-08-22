@@ -11,13 +11,27 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 .box-eventos span{
   margin-bottom:30px ;
   font-style: italic;
 }
 .paragrafo-eventos{
-  width: 50%;
+  width: 60%;
+  line-height: 1.5;
   text-align: left;
+}
+
+@media(max-width:768px){
+  .eventos{
+    flex-direction: column-reverse;
+  }
+  .eventos-img{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .paragrafo-eventos{
+   margin-bottom: 50px;
+  }
 }

@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
 }
 .box-sabor span{
   margin-bottom:30px ;
@@ -19,6 +19,23 @@
 
 }
 .paragrafo-sabor{
-  width: 50%;
+  width: 60%;
   text-align: left;
+  line-height: 1.5;
+
+}
+
+@media(max-width:768px){
+  .sabores{
+    display: flex;
+    flex-direction: column;
+  }
+  .sabor-img{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .paragrafo-sabor{
+    margin-bottom: 50px;
+  }
+  
 }
