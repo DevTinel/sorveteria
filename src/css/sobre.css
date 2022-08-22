@@ -1,0 +1,26 @@
+.sobre{
+  display: flex;
+  width: 100%;
+}
+
+.box-sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 50%;
+}
+.box-sobre span{
+  margin-bottom:30px ;
+  font-style: italic;
+
+}
+.sobre-img{
+  width: 50%;
+  object-fit: cover;
+}
+.paragrafo-sobre{
+  width: 50%;
+  text-align: left;
+}

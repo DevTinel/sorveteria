@@ -1,0 +1,20 @@
+.home-container{
+background: url('../assets/banner-home.png') 
+no-repeat center;
+background-color: #f9db79;
+object-fit: cover;
+background-size: cover;
+height: 80vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: 35rem;
+}
+
+.home-container h1{
+  text-align: center;
+  width: 100%;
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 5px 5px 2px #444;
+}

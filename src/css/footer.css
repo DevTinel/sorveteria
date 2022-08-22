@@ -1,0 +1,23 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  height: 50vh;
+  background-color: #000000;
+  color: #fff;
+}
+.logo-footer{
+  width: 130px;
+}
+.itens-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.copy p{
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+}

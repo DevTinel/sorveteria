@@ -1,0 +1,24 @@
+.sabores{
+  display: flex;
+  width: 100%;
+}
+.sabor-img{
+  width: 50%;
+  object-fit: cover;
+}
+.box-sabor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.box-sabor span{
+  margin-bottom:30px ;
+  font-style: italic;
+
+}
+.paragrafo-sabor{
+  width: 50%;
+  text-align: left;
+}

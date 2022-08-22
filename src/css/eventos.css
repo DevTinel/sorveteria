@@ -1,0 +1,23 @@
+.eventos{
+  display: flex;
+  width: 100%;
+}
+.eventos-img{
+  width: 50%;
+  object-fit: cover;
+}
+.box-eventos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.box-eventos span{
+  margin-bottom:30px ;
+  font-style: italic;
+}
+.paragrafo-eventos{
+  width: 50%;
+  text-align: left;
+}
