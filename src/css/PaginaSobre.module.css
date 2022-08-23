@@ -1,0 +1,17 @@
+.PaginaSobre{
+  background-image: url('../assets/banner-sobre.png');
+  height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PaginaSobre h1{
+  text-align: center;
+  width: 100%;
+  font-size: 4.8rem;
+  color: #fff;
+  text-shadow: 5px 5px 2px #444;
+}

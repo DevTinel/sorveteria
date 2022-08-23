@@ -1,0 +1,56 @@
+.PaginaSabores{
+  background: url('../assets/banner-sabores.jpg')center no-repeat;
+background-size: cover;
+height: 80vh;
+width: 100%;
+}
+.PaginaSaboresTit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;  
+}
+.PaginaSaboresTit h1{
+  text-align: center;
+  width: 100%;
+  font-size: 4.8rem;
+  margin-bottom: 150px;
+  color: #fff;
+  text-shadow: 2px 4px 2px #444;
+}
+
+.SaboresArea{
+  width: 100%;
+  margin-bottom: 150px;
+}
+.SaboresArea h2{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.BoxSabores{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 30px 50px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+@media(max-width:768px){
+  .PaginaSaboresTit h1{
+  font-size: 4rem;
+  line-height: 1.5;
+  } 
+  .SaboresArea h2{
+    font-size: 1.6rem;
+}
+}
+@media(max-width:550px){
+  .SaboresArea h2{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 1.5rem;
+  }
+ 
+
+}

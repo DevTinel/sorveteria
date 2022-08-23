@@ -40,5 +40,12 @@
   .box-sobre{
    margin-bottom: 50px;
    width: 100%;
+   border: none;
+  }
+  .paragrafo-sobre{
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
   }
 }

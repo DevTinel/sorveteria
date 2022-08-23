@@ -9,9 +9,11 @@ export const Header = () => {
       <nav className="nav-header">
         <img className="logo" src={logo} alt="logo" />
         <div className="links-header">
-          <Link to="/">Home</Link>
-          <Link to="pagina-sabores">Sabores</Link>
-          <Link to="pagina-sobre">Sobre</Link>
+          <Link exact to="/">
+            Home
+          </Link>
+          <Link to="/pagina-sabores">Sabores</Link>
+          <Link to="/pagina-sobre">Sobre</Link>
         </div>
       </nav>
     </header>

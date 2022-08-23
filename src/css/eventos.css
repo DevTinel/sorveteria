@@ -32,6 +32,9 @@
     margin-bottom: 50px;
   }
   .paragrafo-eventos{
-   margin-bottom: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
   }
 }

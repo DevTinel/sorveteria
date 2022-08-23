@@ -1,4 +1,5 @@
 .footer{
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +16,11 @@
   flex-direction: column;
   gap: 8px;
 }
+.itens-footer:last-child{
+  margin-bottom: 60px;
+
+  
+}
 .copy p{
   background-color: #000000;
   color: #fff;
@@ -24,7 +30,15 @@
 .br{
   width: 150px;
 }
-
+@media(max-width:1024px){
+  .footer{
+    display: flex;
+    height: max-content;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    gap: 30px;
+  }
+}
 @media(max-width:768px){
   .footer{
     display: flex;

@@ -21,10 +21,12 @@ background-size: 35rem;
 
 @media(max-width:768px){
   .home-container{
-background-size: 30rem;
+  background-size: 30rem;
+  height: 90vh;
     }
     .home-container h1{
-      font-size: 2.5rem;
+      font-size: 3rem;
+      line-height: 1.8;
       
     }
 }

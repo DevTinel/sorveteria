@@ -36,6 +36,9 @@
   }
   .paragrafo-sabor{
     margin-bottom: 50px;
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
   }
   
 }

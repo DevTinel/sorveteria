@@ -19,3 +19,30 @@ span{
   font-weight: bold;
   text-align: center;
 }
+.container {
+  display: flex;
+  width: 100%
+}
+.container img{
+  width: 50%;
+  object-fit: cover;
+}
+
+.box-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.box-container span{
+  margin-bottom:30px ;
+  font-style: italic;
+}
+
+.paragrafos-container{
+  width: 60%;
+  line-height: 1.5;
+  text-align: left;
+}

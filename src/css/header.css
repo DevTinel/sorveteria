@@ -17,3 +17,16 @@
   display: flex;
   gap: 40px;
 }
+
+@media (max-width:768px){
+  .nav-header{
+ flex-direction: column;
+  }
+  .links-header{
+    width: 90%;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: 2px solid #666;
+    margin-bottom: 10px;
+  }
+}
