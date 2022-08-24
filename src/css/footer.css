@@ -16,11 +16,8 @@
   flex-direction: column;
   gap: 8px;
 }
-.itens-footer:last-child{
-  margin-bottom: 60px;
 
   
-}
 .copy p{
   background-color: #000000;
   color: #fff;
